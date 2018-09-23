@@ -1,0 +1,6 @@
+model_checkpoint_path: "new_trained_CNN-15700"
+all_model_checkpoint_paths: "new_trained_CNN-15300"
+all_model_checkpoint_paths: "new_trained_CNN-15400"
+all_model_checkpoint_paths: "new_trained_CNN-15500"
+all_model_checkpoint_paths: "new_trained_CNN-15600"
+all_model_checkpoint_paths: "new_trained_CNN-15700"
