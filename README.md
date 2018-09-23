@@ -1,0 +1,2 @@
+# Convolution_Neural_Network
+This is an implementation of the CNN after referring from various online tutorials and codes. This just a test implementation to understand the working of the CNN. It has been implemented using Tensorflow and is not structured to be used directly. You can refer to its structure and model it for your own use. I have averaged its performance over the test set in the form of batches, and it has a 92.8% accuracy (quite low). Though it has been trained only 12 epochs. You can train it more no of times from the main program.
