@@ -6,7 +6,7 @@ It is based on the Extended-MNIST dataset, which is available for download from 
 Note: This is not some structured implementation of CNN for easy reuse. This is just to get the idea of the working of the CNN.<br/>
 File description:<br/>
 ConvolutionNetwork.py --> Include the code definig each component of the convolution block. The code for the structure of the Conv Layer, Pooling Layer, Activation Layer, Dense Layer and the Softmax function is defined here.<br/>
-Simple_CNN.py --> It is a simple CNN with three Convolution Block: [5*5 32 filters] -> [5*5 64 filters] -> [5*5 128 filters] -> [200 nodes Dense Layer] -> [200 nodes Dense Layer] -> Softmax Layer.<br/>
+Simple_CNN.py --> It is a simple CNN with three Convolution Block: [5X5 32 filters] -> [5X5 64 filters] -> [5X5 128 filters] -> [200 nodes Dense Layer] -> [200 nodes Dense Layer] -> Softmax Layer.<br/>
 new_train_CNN.py --> Contains the code for training, testing of the network and predicting of character. It is more-or-less commented to help you understand the working sequence.<br/>
 Dataset_Generator.py --> Helps to read the data from .csv files. I have the code to read the dataset fromt the .csv file and store it in as array, so that during re-traininng or re-testing, I don't have to read from the .csv file again and store in an array. Thus the files: train_data_file.py and  train_lable_file.py.<br/>
 image_preprocess_wCV2.py --> This include all the preprocessing needed to be done to the image to be predicted, using the CV2 library.<br/>
